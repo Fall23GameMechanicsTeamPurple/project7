@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: OnHitModule
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"argumentCount":2,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"OnHit","$type":"System.String"}},"position":{"x":-410.0,"y":-108.0},"guid":"96ead5ab-61a1-46ba-b63a-7188802ad726","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"9"},{"argumentCount":1,"defaultValues":{"name":{"$content":"ModDmgHit","$type":"System.String"},"target":null},"position":{"x":-104.0,"y":-122.0},"guid":"82c19305-8a1e-4636-b962-88b282c34685","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"11"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"200a76d8-0df5-4402-8d4d-2041ea60b243","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"argument_1","destinationUnit":{"$ref":"11"},"destinationKey":"argument_0","guid":"b3607145-dc61-4df8-8295-99cb717360ed","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-406.0,"yMin":-232.0,"xMax":-231.0,"yMax":-132.0},"title":"Sticky
+      Note","body":"Arg 0: Attacker GO\nArg 1: float damage\n\n","colorTheme":"Classic","guid":"3d84185f-bc7c-4c07-9e7b-d113931b0410","$type":"Unity.VisualScripting.StickyNote"}],"$version":"A"}}'
+    _objectReferences: []
